@@ -1,6 +1,5 @@
-def parrot
-  puts "Pretty bird!"
-  "Squawk!"
+def parrot(sound = "Squawk!")
+  puts "#{sound}"
+  "#{sound}"
 end
 parrot
-https://learn.co/tracks/online-software-engineering-structured/procedural-ruby/variables-and-methods/return-values-lab#
